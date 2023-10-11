@@ -137,6 +137,7 @@ a:active {
 .button:hover {
   color: #fdb7fa;
   border: 1px solid #fdb7fa;
+  cursor: pointer;
 }
 
 .container {
@@ -226,10 +227,10 @@ a:active {
 }
 
 .lots__look-more-link {
+  display: inline-block;
   color: #000;
   font-size: 20px;
   font-weight: 400;
-  line-height: normal;
   margin-left: 90px;
   margin-top: 55px;
 }
